@@ -8,8 +8,22 @@
     object-position: center bottom;
     width: auto;
 }
-.main-nav {
+.nav-list {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    padding: 1rem 0;
+}
+.nav-item {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 2rem;
+}
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
 }
 .push {
     display: flex;
@@ -24,7 +38,7 @@ p {
     position: fixed;
     bottom: 10px;
 }
-.button, .search, .logo {
+.search, .logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,4 +49,10 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
