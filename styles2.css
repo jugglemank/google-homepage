@@ -1,3 +1,6 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .profile {
     border-radius: 50%;
 }
@@ -11,11 +14,15 @@ a:hover {
 #logo {
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin-top:20%
 }
 nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-size: 14px;
+    padding-left: ;
 }
 .nav-items {
     margin-right: 2rem;
@@ -23,4 +30,19 @@ nav {
 .nav-items-left {
     margin-left: 2rem;
     margin-right: auto;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: #d3d3d330;
+}
+.carbon {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: #e7e7e7; color: black;
+    border-radius: 4px;
 }
